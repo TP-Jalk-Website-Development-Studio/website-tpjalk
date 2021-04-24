@@ -1,3 +1,21 @@
+<?php
+
+
+if (isset($_POST["submit"])) {
+
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
+
+
+    $connect = mysqli_connect("localhost", "root", "", "_tpjalk");
+    $sql = "INSERT INTO items (name, email, mess) VALUES ('$name', '$email','$message')";
+    $finish = mysqli_query($connect, $sql);
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <title>TP-Jalk Developer Studio</title>
@@ -164,24 +182,26 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Us</b></h4>
       <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <form action="" target="_blank">
+      <form action="main.php" method="post" target="_blank" id="myForm">
         <div class="w3-section">
           <label>Full name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
+          <input class="w3-input w3-border" type="text" name="name" id="name">
         </div>
         <div class="w3-section">
           <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
+          <input class="w3-input w3-border" type="email" name="email" id="email">
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
+          <input class="w3-input w3-border" type="text" name="message" id="message">
         </div>
         <div class="button-submit">
-          <button type="submit" class="w3-button w3-black w3-margin-bottom">Send Message</button>
+          <button type="submit" name="submit" class="w3-button w3-black w3-margin-bottom" id="submitFormData()">Send Message</button>
         </div>
-
       </form>
+        <div id="results">
+
+        </div>
     </div>
   </div>
 
@@ -228,8 +248,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 
-
-
+<script src="js/script.js"></script>
 </body>
 </html>
 
