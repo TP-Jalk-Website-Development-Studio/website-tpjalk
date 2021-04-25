@@ -223,7 +223,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+<script src="js/styles.js"></script>
 </body>
 </html>
 
