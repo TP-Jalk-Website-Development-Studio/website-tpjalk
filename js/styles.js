@@ -20,11 +20,11 @@ $('#menu-about').on('click', function(event) {
     event.preventDefault()
     $("html, body").animate({
         scrollTop: $('#about').offset().top
-    }, 1500);
+    }, 500);
 });
 $('#menu-contact').on('click', function(event) {
     event.preventDefault()
     $("html, body").animate({
         scrollTop: $('#contact').offset().top
-    }, 1500);
+    }, 500);
 });
