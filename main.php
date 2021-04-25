@@ -37,8 +37,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <h5 class="under-title">Development Studio</h5>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="#about" onclick="w3_close()" id="menu-about" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="#contact" onclick="w3_close()" id="menu-contact" class="w3-bar-item w3-button" >CONTACT</a>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -222,7 +222,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- End page content -->
 </div>
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
