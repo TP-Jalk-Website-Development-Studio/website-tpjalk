@@ -143,7 +143,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <div class="w3-half w3-margin-bottom">
           <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
             <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-            <li class="w3-padding-16">Web Coding</li>
+            <li class="w3-padding-16">xdd</li>
             <li class="w3-padding-16">Custom Design</li>
             <li class="w3-padding-16">up to 3GB off files</li>
             <li class="w3-padding-16">---</li>
