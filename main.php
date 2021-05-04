@@ -101,7 +101,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- About section -->
   <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
     <h4 class="section-title">About Us</h4>
-    <div class="w3-content w3-justify" style="max-width:750px">
+    <div class="w3-content w3-justify" style="max-width:600px">
       <div class="about">
         <div class="item1 about-item">
           <img src="img/bitmoji.png" alt="">
@@ -123,73 +123,59 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <h4 class="w3-padding-16 section-title">Technical Skills</h4>
       <p class="w3-wide">HTML</p>
       <div class="w3-white">
-        <div class="w3-container w3-padding-large w3-center w3-grey" style="width:95%">95%</div>
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
       </div>
       <p class="w3-wide">CSS</p>
       <div class="w3-white">
-        <div class="w3-container w3-padding-large w3-center w3-grey" style="width:85%">85%</div>
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
       </div>
       <p class="w3-wide">JAVASCRIPT</p>
       <div class="w3-white">
-        <div class="w3-container w3-padding-large w3-center w3-grey" style="width:75%">75%</div>
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:75%">75%</div>
       </div>
       <p class="w3-wide">PHP</p>
       <div class="w3-white">
-        <div class="w3-container w3-padding-large w3-center w3-grey" style="width:45%">45%</div>
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:45%">45%</div>
       </div>
       <hr class="w3-opacity">
       <h4 class="w3-padding-16 section-title">How much we charge</h4>
-        <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-third w3-margin-bottom">
-                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-                    <li class="w3-padding-16">Web Coding</li>
-                    <li class="w3-padding-16">Custom Design</li>
-                    <li class="w3-padding-16">up to 3GB off files</li>
-                    <li class="w3-padding-16">---</li>
-                    <li class="w3-padding-16">
-                        <h2>$ 20</h2>
-                        <span class="w3-opacity">per one page</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="w3-third">
-                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                    <li class="w3-black w3-xlarge w3-padding-32">Standard</li>
-                    <li class="w3-padding-16">Web Coding</li>
-                    <li class="w3-padding-16">Custom Design</li>
-                    <li class="w3-padding-16">up to 7GB off files</li>
-                    <li class="w3-padding-16">24/7 support</li>
-                    <li class="w3-padding-16">
-                        <h2>$ 35</h2>
-                        <span class="w3-opacity">per one page</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-            <div class="w3-third">
-                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-                    <li class="w3-padding-16">Web Coding</li>
-                    <li class="w3-padding-16">Custom Design</li>
-                    <li class="w3-padding-16">up to 7GB off files</li>
-                    <li class="w3-padding-16">24/7 support</li>
-                    <li class="w3-padding-16">
-                        <h2>$ 35</h2>
-                        <span class="w3-opacity">per one page</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+            <li class="w3-padding-16">xdd</li>
+            <li class="w3-padding-16">Custom Design</li>
+            <li class="w3-padding-16">up to 3GB off files</li>
+            <li class="w3-padding-16">---</li>
+            <li class="w3-padding-16">
+              <h2>$ 20</h2>
+              <span class="w3-opacity">per one page</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
+            </li>
+          </ul>
         </div>
+        
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+            <li class="w3-padding-16">Web Coding</li>
+            <li class="w3-padding-16">Custom Design</li>
+            <li class="w3-padding-16">up to 7GB off files</li>
+            <li class="w3-padding-16">24/7 support</li>
+            <li class="w3-padding-16">
+              <h2>$ 35</h2>
+              <span class="w3-opacity">per one page</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Contact section -->
   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
@@ -220,16 +206,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   </div>
 
   <!-- Footer -->
-<footer>
-    <div class="info">
-        <h3>INFO</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-    <div class="referals">
-        <h3>REFERALS</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-</footer>
+        <div class="faq">
+            <dl>
+                <dt>Why to choose us?</dt>
+                <dd>We have very simple reply to this Question, We love what We am doing, so We are doing it for Cheap price, with Big Effort and Professionaly!</dd>
+
+                <dt>Will you provide Custom Design for me?</dt>
+                <dd>You can choose Custom Design for only 10usd when placing order or buy the Premium Package!</dd>
+
+                <dt>Are you doing Custom Offers?</dt>
+                <dd>Yes, we are! Contact me and we can make Custom Offer!</dd>
+
+                <dt>How long are you doing Website Coding?</dt>
+                <dd>More then 4 years!</dd>
+            </dl>
+  </div>
   
   <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 
