@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .under-title{
 				font-size: 14px;
 				padding: 0;
@@ -48,4 +53,7 @@ form input{
 				width: 50%;
 				border-radius: 10px;
 				transition: 0.2s;
+}
+.faq dl dt{
+	color: #00ffff;
 }

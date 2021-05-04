@@ -204,18 +204,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
     </div>
   </div>
+  <div class="faq">
+      <dl>
+          <dt>Why to choose us?</dt>
+          <dd>We have very simple reply to this Question, We love what We am doing, so We are doing it for Cheap price, with Big Effort and Professionaly!</dd>
 
-  <!-- Footer -->
-<footer>
-    <div class="info">
-        <h3>INFO</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-    <div class="referals">
-        <h3>REFERALS</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-</footer>
+          <dt>Will you provide Custom Design for me?</dt>
+          <dd>You can choose Custom Design for only 10usd when placing order or buy the Premium Package!</dd>
+
+          <dt>Are you doing Custom Offers?</dt>
+          <dd>Yes, we are! Contact me and we can make Custom Offer!</dd>
+
+          <dt>How long are you doing Website Coding?</dt>
+          <dd>More then 4 years!</dd>
+      </dl>
+  </div>
   
   <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 
