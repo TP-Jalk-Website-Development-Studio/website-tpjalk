@@ -140,7 +140,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <hr class="w3-opacity">
       <h4 class="w3-padding-16 section-title">How much we charge</h4>
         <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half w3-margin-bottom">
+            <div class="w3-third w3-margin-bottom">
                 <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
                     <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
                     <li class="w3-padding-16">Web Coding</li>
@@ -157,7 +157,23 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </ul>
             </div>
 
-            <div class="w3-half">
+            <div class="w3-third">
+                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+                    <li class="w3-padding-16">Web Coding</li>
+                    <li class="w3-padding-16">Custom Design</li>
+                    <li class="w3-padding-16">up to 7GB off files</li>
+                    <li class="w3-padding-16">24/7 support</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 35</h2>
+                        <span class="w3-opacity">per one page</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-white w3-padding-large">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third">
                 <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
                     <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
                     <li class="w3-padding-16">Web Coding</li>
