@@ -49,3 +49,9 @@ form input{
 				border-radius: 10px;
 				transition: 0.2s;
 }
+ul{
+	list-style: none;
+}
+.item-title{
+color: #3a3a3a;
+}
